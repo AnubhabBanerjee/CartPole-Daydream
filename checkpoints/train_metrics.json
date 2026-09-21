@@ -1,0 +1,13 @@
+{
+  "one_step_rmse_position_m": 0.0038152902852743864,
+  "one_step_rmse_angle_rad": 0.000258518906775862,
+  "termination_recall": 1.0,
+  "termination_precision": 0.14285714285714285,
+  "true_positives": 42,
+  "actual_positives": 42,
+  "false_alarms": 252,
+  "false_alarms_per_crash": 6.0,
+  "n_parameters": 13635,
+  "seq_len": 32,
+  "burn_in": 8
+}

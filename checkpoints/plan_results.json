@@ -1,0 +1,125 @@
+{
+  "horizon": 29,
+  "goals": {
+    "park": {
+      "survival_mean": 350.26,
+      "survival_std": 168.96216262820505,
+      "goal_score_mean": 0.4690372943878174,
+      "goal_score_std": 0.16875399976550193,
+      "latency_ms": 5.437640028477314
+    },
+    "corridor": {
+      "survival_mean": 454.26,
+      "survival_std": 83.2217063031034,
+      "goal_score_mean": 2.3302975694835184,
+      "goal_score_std": 5.329996307784947,
+      "latency_ms": 3.057862330075277
+    },
+    "waypoint": {
+      "survival_mean": 218.81,
+      "survival_std": 72.0163446725811,
+      "goal_score_mean": 1.0056921720504761,
+      "goal_score_std": 0.14608545312546492,
+      "latency_ms": 5.469010086640261
+    }
+  },
+  "controller_goals": {
+    "park": {
+      "survival_mean": 500.0,
+      "survival_std": 0.0,
+      "goal_score_mean": 1.048390093743801,
+      "goal_score_std": 0.4138486046830566,
+      "latency_ms": 0.0
+    },
+    "corridor": {
+      "survival_mean": 500.0,
+      "survival_std": 0.0,
+      "goal_score_mean": 23.31199982404709,
+      "goal_score_std": 32.47904307493727,
+      "latency_ms": 0.0
+    },
+    "waypoint": {
+      "survival_mean": 500.0,
+      "survival_std": 0.0,
+      "goal_score_mean": 1.0481969812512397,
+      "goal_score_std": 0.4062883996006794,
+      "latency_ms": 0.0
+    }
+  },
+  "goal_horizons": {
+    "balance": 15,
+    "park": 29,
+    "corridor": 15,
+    "waypoint": 29
+  },
+  "balance": {
+    "random": {
+      "survival_mean": 21.49,
+      "survival_std": 9.785187785627826,
+      "goal_score_mean": 21.49,
+      "goal_score_std": 9.785187785627826,
+      "latency_ms": 0.0
+    },
+    "hand-written": {
+      "survival_mean": 500.0,
+      "survival_std": 0.0,
+      "goal_score_mean": 500.0,
+      "goal_score_std": 0.0,
+      "latency_ms": 0.0
+    },
+    "world model": {
+      "survival_mean": 500.0,
+      "survival_std": 0.0,
+      "goal_score_mean": 500.0,
+      "goal_score_std": 0.0,
+      "latency_ms": 2.9381705919560797
+    }
+  },
+  "sweep": [
+    [
+      1,
+      25.0,
+      10.04987562112089
+    ],
+    [
+      3,
+      500.0,
+      0.0
+    ],
+    [
+      5,
+      500.0,
+      0.0
+    ],
+    [
+      10,
+      500.0,
+      0.0
+    ],
+    [
+      20,
+      493.0,
+      21.0
+    ],
+    [
+      29,
+      477.1,
+      37.91688278326688
+    ],
+    [
+      40,
+      450.1,
+      86.55223856146067
+    ],
+    [
+      60,
+      245.9,
+      113.14808880400942
+    ],
+    [
+      80,
+      158.8,
+      150.37805690990956
+    ]
+  ]
+}

@@ -1,0 +1,276 @@
+{
+  "balance_dqn": {
+    "survival_mean": 350.364,
+    "survival_std": 183.92515527790104,
+    "env_steps_mean": 39036.4,
+    "env_steps_std": 15092.0590324846,
+    "per_seed_survival": [
+      500.0,
+      500.0,
+      150.51,
+      101.31,
+      500.0
+    ],
+    "per_seed_env_steps": [
+      67156,
+      36012,
+      29698,
+      23169,
+      39147
+    ],
+    "per_seed_best_episode": [
+      500,
+      500,
+      483,
+      290,
+      500
+    ]
+  },
+  "park": {
+    "planner": {
+      "survival_mean": 350.26,
+      "survival_std": 168.96216262820505,
+      "goal_score_mean": 0.4690372943878174,
+      "goal_score_std": 0.16875399976550193,
+      "latency_ms": 5.437640028477314
+    },
+    "dqn": {
+      "goal_score_mean": 0.5479335566461087,
+      "goal_score_std": 0.15263903561665695,
+      "survival_mean": 211.996,
+      "env_steps": 24437.0,
+      "env_steps_std": 7125.8259310763415,
+      "per_run": [
+        {
+          "seed": 0,
+          "episode_length": 127,
+          "reached_500": false,
+          "final_position": 1.0438729524612427,
+          "closest_to_target": 0.0010359883308410645,
+          "left_the_rail": false,
+          "goal_score_mean": 0.6474830168485641,
+          "survival_mean": 125.07,
+          "env_steps": 20061
+        },
+        {
+          "seed": 1,
+          "episode_length": 208,
+          "reached_500": false,
+          "final_position": 2.41286563873291,
+          "closest_to_target": 0.004712224006652832,
+          "left_the_rail": true,
+          "goal_score_mean": 0.6191675877571106,
+          "survival_mean": 204.83,
+          "env_steps": 25725
+        },
+        {
+          "seed": 2,
+          "episode_length": 500,
+          "reached_500": true,
+          "final_position": 1.1186128854751587,
+          "closest_to_target": 0.0016314983367919922,
+          "left_the_rail": false,
+          "goal_score_mean": 0.25338433638215063,
+          "survival_mean": 500.0,
+          "env_steps": 37733
+        },
+        {
+          "seed": 3,
+          "episode_length": 111,
+          "reached_500": false,
+          "final_position": 1.2836822271347046,
+          "closest_to_target": 0.001991748809814453,
+          "left_the_rail": false,
+          "goal_score_mean": 0.55027327388525,
+          "survival_mean": 108.51,
+          "env_steps": 17885
+        },
+        {
+          "seed": 4,
+          "episode_length": 124,
+          "reached_500": false,
+          "final_position": 2.414025068283081,
+          "closest_to_target": 0.01056063175201416,
+          "left_the_rail": true,
+          "goal_score_mean": 0.6693595683574677,
+          "survival_mean": 121.57,
+          "env_steps": 20781
+        }
+      ]
+    },
+    "dqn_untold": {
+      "goal_score_mean": 0.9572834216356277,
+      "goal_score_std": 0.1608387394154164,
+      "survival_mean": 350.364,
+      "latency_ms": 0.16334738177098473
+    }
+  },
+  "corridor": {
+    "planner": {
+      "survival_mean": 454.26,
+      "survival_std": 83.2217063031034,
+      "goal_score_mean": 2.3302975694835184,
+      "goal_score_std": 5.329996307784947,
+      "latency_ms": 3.057862330075277
+    },
+    "dqn": {
+      "goal_score_mean": 0.0,
+      "goal_score_std": 0.0,
+      "survival_mean": 409.68999999999994,
+      "env_steps": 46117.4,
+      "env_steps_std": 21788.586485589192,
+      "per_run": [
+        {
+          "seed": 0,
+          "episode_length": 500,
+          "reached_500": true,
+          "final_position": -0.14707918465137482,
+          "closest_to_target": 0.9986972808837891,
+          "left_the_rail": false,
+          "goal_score_mean": 0.0,
+          "survival_mean": 500.0,
+          "env_steps": 86932
+        },
+        {
+          "seed": 1,
+          "episode_length": 47,
+          "reached_500": false,
+          "final_position": 0.37193939089775085,
+          "closest_to_target": 0.6280605792999268,
+          "left_the_rail": false,
+          "goal_score_mean": 0.0,
+          "survival_mean": 48.45,
+          "env_steps": 21979
+        },
+        {
+          "seed": 2,
+          "episode_length": 500,
+          "reached_500": true,
+          "final_position": -0.15575209259986877,
+          "closest_to_target": 0.9810319542884827,
+          "left_the_rail": false,
+          "goal_score_mean": 0.0,
+          "survival_mean": 500.0,
+          "env_steps": 40383
+        },
+        {
+          "seed": 3,
+          "episode_length": 500,
+          "reached_500": true,
+          "final_position": 0.26824694871902466,
+          "closest_to_target": 0.6442438364028931,
+          "left_the_rail": false,
+          "goal_score_mean": 0.0,
+          "survival_mean": 500.0,
+          "env_steps": 36617
+        },
+        {
+          "seed": 4,
+          "episode_length": 500,
+          "reached_500": true,
+          "final_position": -0.11373734474182129,
+          "closest_to_target": 0.9369263052940369,
+          "left_the_rail": false,
+          "goal_score_mean": 0.0,
+          "survival_mean": 500.0,
+          "env_steps": 44676
+        }
+      ]
+    },
+    "dqn_untold": {
+      "goal_score_mean": 21.08252648925781,
+      "goal_score_std": 25.970212234096103,
+      "survival_mean": 350.364,
+      "latency_ms": 0.16176573308965486
+    }
+  },
+  "waypoint": {
+    "planner": {
+      "survival_mean": 218.81,
+      "survival_std": 72.0163446725811,
+      "goal_score_mean": 1.0056921720504761,
+      "goal_score_std": 0.14608545312546492,
+      "latency_ms": 5.469010086640261
+    },
+    "dqn": {
+      "goal_score_mean": 0.7164090336561204,
+      "goal_score_std": 0.05034877708469098,
+      "survival_mean": 91.47999999999999,
+      "env_steps": 19138.0,
+      "env_steps_std": 2045.9737046208586,
+      "per_run": [
+        {
+          "seed": 0,
+          "episode_length": 93,
+          "reached_500": false,
+          "final_position": 0.8456785678863525,
+          "closest_to_target": 0.15432143211364746,
+          "left_the_rail": false,
+          "goal_score_mean": 0.7346462881565095,
+          "survival_mean": 89.52,
+          "env_steps": 18132
+        },
+        {
+          "seed": 1,
+          "episode_length": 102,
+          "reached_500": false,
+          "final_position": 0.7668843865394592,
+          "closest_to_target": 0.20086824893951416,
+          "left_the_rail": false,
+          "goal_score_mean": 0.7313598698377609,
+          "survival_mean": 99.07,
+          "env_steps": 20581
+        },
+        {
+          "seed": 2,
+          "episode_length": 82,
+          "reached_500": false,
+          "final_position": 0.7775051593780518,
+          "closest_to_target": 0.22249484062194824,
+          "left_the_rail": false,
+          "goal_score_mean": 0.7600800263881683,
+          "survival_mean": 82.8,
+          "env_steps": 21382
+        },
+        {
+          "seed": 3,
+          "episode_length": 90,
+          "reached_500": false,
+          "final_position": 1.3462730646133423,
+          "closest_to_target": 0.010021448135375977,
+          "left_the_rail": false,
+          "goal_score_mean": 0.6177380740642547,
+          "survival_mean": 90.64,
+          "env_steps": 15652
+        },
+        {
+          "seed": 4,
+          "episode_length": 98,
+          "reached_500": false,
+          "final_position": 0.9174816012382507,
+          "closest_to_target": 0.08251839876174927,
+          "left_the_rail": false,
+          "goal_score_mean": 0.7382209098339081,
+          "survival_mean": 95.37,
+          "env_steps": 19943
+        }
+      ]
+    },
+    "dqn_untold": {
+      "goal_score_mean": 1.0165856301784515,
+      "goal_score_std": 0.1741326252739953,
+      "survival_mean": 350.364,
+      "latency_ms": 0.16031158430456416
+    }
+  },
+  "latency_ms": {
+    "world_model": 2.9381705919560797,
+    "dqn": 0.16180823305506792,
+    "per_goal": {
+      "park": 5.437640028477314,
+      "corridor": 3.057862330075277,
+      "waypoint": 5.469010086640261,
+      "balance": 2.9381705919560797
+    }
+  }
+}

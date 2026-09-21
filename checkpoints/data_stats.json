@@ -1,0 +1,23 @@
+{
+  "episodes": 500,
+  "total_transitions": 156967,
+  "episode_length_mean": 313.934,
+  "episode_length_min": 59,
+  "episode_length_max": 500,
+  "ended_by_falling": 413,
+  "ended_by_time_limit": 88,
+  "observation_mean": {
+    "cart position": 0.010222235694527626,
+    "cart velocity": 0.005452560726553202,
+    "pole angle": 0.000578991777729243,
+    "pole ang. vel.": 0.0006114518037065864
+  },
+  "observation_std": {
+    "cart position": 0.9370314478874207,
+    "cart velocity": 0.5771039724349976,
+    "pole angle": 0.0380270816385746,
+    "pole ang. vel.": 0.2595163881778717
+  },
+  "drift_bias": 0.04,
+  "epsilon": 0.25
+}
