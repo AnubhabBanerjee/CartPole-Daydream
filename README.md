@@ -7,6 +7,11 @@ Unauthorized commercial use or redistribution is a violation of the license term
 
 ---
 
+Read the full deep-dive here: https://towardsdatascience.com/how-to-make-your-first-world-model-from-scratch/
+
+---
+
+
 <img width="1536" height="1024" src="cover.png" />
 
 ---
